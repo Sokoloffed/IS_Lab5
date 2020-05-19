@@ -114,7 +114,6 @@ for slot in Slot.slots:
     for room in Room.rooms:
         values.append((slot, room))
 
-print('Variable items: ', variables.items())
 domains = {}
 for key, var in variables.items():
     domains[key] = []
