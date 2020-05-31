@@ -230,8 +230,8 @@ res = result = backtrack(my_problem, inference=False)
 print('\n\n\n\nConstraint propagation: {}s'.format(time.time() - t1))
 pretty_print(res, variables, values)
 
-t1 = time.time()
-res = backtrack(my_problem, value_heuristic=LEAST_CONSTRAINING_VALUE, variable_heuristic=MOST_CONSTRAINED_VARIABLE)
-print('\n\n\n\nLeast constraining value + Most constrained variable (aka Minimum remaining value): {}s'.format(time.time() - t1))
-pretty_print(res, variables, values)
+# t1 = time.time()
+# res = backtrack(my_problem, value_heuristic=LEAST_CONSTRAINING_VALUE, variable_heuristic=MOST_CONSTRAINED_VARIABLE)
+# print('\n\n\n\nLeast constraining value + Most constrained variable (aka Minimum remaining value): {}s'.format(time.time() - t1))
+# pretty_print(res, variables, values)
 
